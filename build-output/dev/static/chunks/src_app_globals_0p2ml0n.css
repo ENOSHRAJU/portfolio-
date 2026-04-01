@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;700;900&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap";
+/* [project]/src/app/globals.css [app-client] (css) */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  scroll-padding-top: 7.5rem;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: #f4f7f2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0000;
+  background-image: radial-gradient(circle at 0 0, #7ee0c32e, #0000 28%), radial-gradient(circle at 88% 10%, #ff9e542e, #0000 24%), linear-gradient(135deg, #061017 0%, #0b1b24 45%, #122633 100%);
+  background-position: 0 0, 0 0, 0 0;
+  background-repeat: repeat, repeat, repeat;
+  background-size: auto, auto, auto;
+  background-attachment: fixed;
+  background-origin: padding-box, padding-box, padding-box;
+  background-clip: border-box, border-box, border-box;
+  min-height: 100%;
+  font-family: IBM Plex Sans, Segoe UI, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+::selection {
+  color: #fff;
+  background: #a4f7824d;
+}
+
+body:before {
+  content: "";
+  z-index: 0;
+  pointer-events: none;
+  background-image: linear-gradient(#ffffff08 1px, #0000 1px), linear-gradient(90deg, #ffffff08 1px, #0000 1px);
+  background-size: 42px 42px;
+  position: fixed;
+  inset: 0;
+  -webkit-mask-image: linear-gradient(#00000080, #0000 85%);
+  mask-image: linear-gradient(#00000080, #0000 85%);
+}
+
+body:after {
+  content: "";
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 12% 8%, #7ee0c31a, #0000 26%), radial-gradient(circle at 85% 14%, #ff9e5414, #0000 24%);
+  position: fixed;
+  inset: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/*# sourceMappingURL=src_app_globals_0p2ml0n.css.map*/
